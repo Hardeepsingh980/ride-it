@@ -1,16 +1,27 @@
-# ride_it
+## Ride IT
 
-A new Flutter project.
+### Predicts the price based on distance, estimated time of travel, and time of the day 🚕
 
-## Getting Started
+![alt text](https://findcoder.fra1.digitaloceanspaces.com/5bd412d40d5dabb44704f8a6df008096)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+#### Demo Video:-
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/NP55AP3i-cQ/0.jpg)](http://www.youtube.com/watch?v=NP55AP3i-cQ "Demo Video")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Features:-
+1. Picks up current location of user if users allows it.Gives autocomplete places suggestions to pick up origin and destination location.
+2. Draws a route on map to visulize the trip.Allows to pick time of day to check prices for that time.
+3. Displays Total distance and Total estimated time for the trip.
+4. Displays prices of different type of rides on the bases of distance, time and the ride type with the logic below:-
+
+         1. Micro:- 12, Night:- 16
+         2. Mini:- 15, Night:- 20
+         3. Auto:- 10, Night:- 13
+         4. Bike:- 9, Night: 12
+         5. Prime Executive:- 20, Night:- 25
+         6. Prime SUV:- 25, Night:- 29
+         7.Luxury:- 32, Night:- 38
+         
+5. Allows user to lauch google maps navigation for the origin and destination with single button click.
+
