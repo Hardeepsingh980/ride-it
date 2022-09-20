@@ -2,8 +2,8 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-const APIKEY = 'AIzaSyA8xYAKtqohyLZyh_JsLhobfGFraOZodac';
-const PLACEAPIKEY = 'AIzaSyCe2Ue4NPPRQBgUssSXw1fv23YOOyd2QDU';
+const APIKEY = 'API_KEY';
+const PLACEAPIKEY = 'API_KEY';
 
 // Micro:- 12, Night:- 16
 // Mini:- 15, Night:- 20
